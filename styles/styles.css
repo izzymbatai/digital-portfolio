@@ -114,3 +114,19 @@ h2 {
     text-align: center;
     margin-bottom: 20px;
 }
+
+.nav-toggle {
+    display: none;
+    font-size: 28px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+}
