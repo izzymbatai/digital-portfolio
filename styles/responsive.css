@@ -116,17 +116,31 @@
     }
 
     #main-header {
-        font-size: 42px;   /* keeps it big but not overwhelming */
+        font-size: 42px;
+        line-height: 1.1;
+        padding: 0 10px;
+    }
+
+    nav {
+        overflow-x: hidden;
     }
 
     nav ul {
-        flex-direction: column;   /* stack nav items */
+        flex-direction: column;
+        flex-wrap: nowrap; 
         align-items: center;
-        gap: 10px;
+        gap: 12px;
+        padding: 10px 0;
     }
 
     nav li {
+        width: 100%;
         text-align: center;
+    }
+
+    nav a {
+        display: block;
+        padding: 6px 0;
     }
 
     h2 {
