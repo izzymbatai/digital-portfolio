@@ -1,0 +1,114 @@
+html {
+    scroll-behavior: smooth;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+body {
+    line-height: 1.6;
+    background-color: #F2F6FA;
+    color: #333;
+}
+
+#top-bar {
+    background-color: #0F6ABA;
+    color: white;
+    position: sticky;
+    z-index: 1000;
+    padding: 30px 0;
+    padding-bottom: 30px;
+    width: 100%;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+#main-header {
+    text-align: center;
+    font-size: 75px;
+    font-weight: normal;
+}
+
+
+nav {
+    overflow-x: auto;
+}
+
+
+nav ul {
+    display: flex;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+}
+
+nav a:link {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: #D1E1EF;
+}
+
+#linkedin-header {
+    vertical-align: text-bottom;
+}
+
+#linkedin-footer {
+    vertical-align: middle;
+}
+
+.divider {
+    height: 2px;
+    background-color: white;
+    margin: 10px auto;
+    width: 70%;
+}
+
+.black-divider {
+    height: 2px;
+    background-color: #333;
+    margin: 0px auto;
+    width: 70%;
+}
+
+footer {
+    background-color: #F2F6FA;
+    color: #333;
+    padding: 20px 10px;
+    box-shadow: 0px -3px 5px rgba(0,0,0,0.3);
+}
+
+#footer-content {
+    text-align: center;
+}
+
+#footer-content > * {
+    margin: 20px 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: #333;
+}
+
+.subheader-container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+section {
+    padding: 20px;
+    background-color: #FFFFFF;
+}
+
+h2 {
+    color: #333;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,32 @@
+.core-story-section {
+    width: 90%;
+    max-width: 1100px;
+    margin: 40px auto;
+    border-radius: 12px;
+}
+
+.story-card {
+    background-color: #0F6ABA;
+    color: white;
+    padding: 25px;
+    border-radius: 12px;
+    margin: 30px 0;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.15);
+}
+
+.story-card h3 {
+    font-size: 26px;
+    margin-bottom: 5px;
+}
+
+.story-card h4 {
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 15px;
+    color: #D1E1EF;
+}
+
+.story-card p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}

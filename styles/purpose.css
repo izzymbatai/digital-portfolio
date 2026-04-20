@@ -1,0 +1,32 @@
+main {
+    width: 90%;
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+.purpose-container {
+    background-color: #FFFFFF;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.08);
+}
+
+.purpose-container h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.purpose-text {
+    margin-top: 25px;
+}
+
+.purpose-text p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #333;
+    text-align: left;
+    margin-bottom: 18px;
+    text-indent: 30px;  
+}

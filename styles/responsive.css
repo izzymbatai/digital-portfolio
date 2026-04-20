@@ -1,0 +1,151 @@
+/* =========================
+   GLOBAL RESPONSIVE SYSTEM
+   ========================= */
+
+/* Tablet + small laptops */
+@media (max-width: 1024px) {
+
+    main {
+        width: 92%;
+    }
+
+    .hero-content {
+        gap: 40px;
+    }
+
+    .hero-content img {
+        width: 320px;
+        height: 320px;
+    }
+
+    .hero-text h2 {
+        font-size: 42px;
+    }
+
+    .hero-text p {
+        font-size: 18px;
+    }
+
+    .project-card img {
+        width: 380px;
+    }
+
+    #resume-pdf {
+        width: 90%;
+        height: 1000px;
+    }
+}
+
+/* Tablets + large phones */
+@media (max-width: 768px) {
+
+    main {
+        width: 95%;
+        margin: 20px auto;
+    }
+
+    /* HERO */
+    .hero-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 25px;
+    }
+
+    .hero-content img {
+        width: 280px;
+        height: 280px;
+    }
+
+    .hero-text h2 {
+        font-size: 38px;
+    }
+
+    .hero-text p {
+        font-size: 16px;
+    }
+
+    /* QUICK LINKS */
+    .links-container {
+        grid-template-columns: 1fr;
+    }
+
+    .link-card {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    /* ABOUT */
+    .about-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-container img {
+        width: 260px;
+        height: 340px;
+    }
+
+    /* PROJECTS */
+    .project-card {
+        flex-direction: column;
+    }
+
+    .project-card img {
+        width: 100%;
+    }
+
+    /* SWOT */
+    .swot-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* RESUME */
+    #resume-pdf {
+        width: 95%;
+        height: 800px;
+    }
+
+    /* PURPOSE */
+    .purpose-container {
+        padding: 25px;
+    }
+
+    /* CONTACT FORM */
+    #contact-fieldset {
+        width: 95%;
+    }
+}
+
+/* Phones */
+@media (max-width: 480px) {
+
+    .hero-text h2 {
+        font-size: 32px;
+    }
+
+    .hero-text p {
+        font-size: 15px;
+    }
+
+    .hero-content img {
+        width: 240px;
+        height: 240px;
+    }
+
+    .link-card {
+        font-size: 16px;
+        min-height: 80px;
+    }
+
+    .story-card {
+        padding: 18px;
+    }
+
+    .project-info h3 {
+        font-size: 18px;
+    }
+
+    #main-header {
+        font-size: 20px;
+    }
+}
