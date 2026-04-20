@@ -114,6 +114,28 @@
     #contact-fieldset {
         width: 95%;
     }
+
+    #main-header {
+        font-size: 42px;   /* keeps it big but not overwhelming */
+    }
+
+    nav ul {
+        flex-direction: column;   /* stack nav items */
+        align-items: center;
+        gap: 10px;
+    }
+
+    nav li {
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    section {
+        padding: 15px;
+    }
 }
 
 /* Phones */
